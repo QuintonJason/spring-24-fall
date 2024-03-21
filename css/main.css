@@ -3,6 +3,24 @@ body {
   background-color: #fbda9d;
   color:#2b2bf0;
   font-family: "Merriweather", serif;
+  font-size: 16px;
 }
 
-h1 {}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1b1b1b;
+  font-family: "Karla", sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+.mango-zebra {
+  border: 1px solid #000;
+  background-color: white;
+}

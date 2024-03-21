@@ -1,1 +1,8 @@
 /* Place CSS styles here */
+body {
+  background-color: #fbda9d;
+  color:#2b2bf0;
+  font-family: "Merriweather", serif;
+}
+
+h1 {}

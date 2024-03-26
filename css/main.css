@@ -14,6 +14,7 @@ h5,
 h6 {
   color: #1b1b1b;
   font-family: "Karla", sans-serif;
+
 }
 
 p {
@@ -23,4 +24,25 @@ p {
 .mango-zebra {
   border: 1px solid #000;
   background-color: white;
+}
+
+.purple-cat-restaurant {
+  border: 1px solid black;
+  border-radius: 8px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.purple-cat-events {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px
+}
+
+.purple-cat-event p {
+  color: red;
+}
+
+.purple-cat-event img {
+  width: 100%;
 }

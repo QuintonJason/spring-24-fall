@@ -76,3 +76,34 @@ p {
   border: 1px solid black;
   margin: 10px;
 }
+
+.yellow-tiger-flex-row {
+  display: flex;
+  background-color: yellow; 
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+
+.yellow-tiger-grid-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: orange; 
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 20px;
+}
+
+.yellow-tiger-fs {
+  min-height: 100vh;
+  background-color: #efefef;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  background: lightgreen;
+}

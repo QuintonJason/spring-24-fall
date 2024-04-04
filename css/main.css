@@ -107,3 +107,17 @@ main {
   flex: 1;
   background: lightgreen;
 }
+
+.pre-bday-outer {
+  background-color: #f0f0f0;}
+
+.pre-bday-inner {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pre-bday-row {
+  display: flex;
+  gap: 20px
+}
